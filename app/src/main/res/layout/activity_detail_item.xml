@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activty.DetailItem">
+
+
+    <ImageView
+        android:id="@+id/img_item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <RelativeLayout
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/bg_item_detail">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_nama_item_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Nama Itemnya"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/txt_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Lokasi"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txt_deskripsi_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="ini adalah keterangan asdgadgagasgalsgmlsanalnvksnalsncccccccccccccccccccccccccccccc" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            >
+
+            <Button
+                android:id="@+id/btn_add_to_basket"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Kunjungi tempat" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
